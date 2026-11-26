@@ -1,4 +1,4 @@
-# supercut-ai
+# Supercut
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-supercut-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://supercut.ai/
+Supercut provides a screen recording tool for business communication that captures screen and camera on macOS and Windows up to 4K resolution. It enables product, sales, and support teams to record, share, and embed videos, with features such as AI‑generated chapters, summaries, and workflow integration. The service offers enterprise‑grade security compliance including SOC 2, ISO 27001, and GDPR.
+
+**Areas:** Screen Recording · Business Communication · API · Enterprise · Security
+
+## Supercut on APIs.io
+
+Everything profiled for Supercut is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/supercut-ai/](https://apis.io/providers/supercut-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Platform API](https://apis.io/apis/supercut-ai/platform-api/) — Supercut Platform API documentation
+- [Supercut API](https://apis.io/apis/supercut-ai/supercut-ai-api/) — Supercut API as documented publicly. Contract generated from the documentation by API Evangelist (2026-11-26); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1ImportsResponse](https://apis.io/schemas/supercut-ai/supercut-ai-get-v1-imports-response/)
+- [GetV1StacksResponse](https://apis.io/schemas/supercut-ai/supercut-ai-get-v1-stacks-response/)
+- [PatchV1StacksPublicidResponse](https://apis.io/schemas/supercut-ai/supercut-ai-patch-v1-stacks-publicid-response/)
+- [PostV1ImportsResponse](https://apis.io/schemas/supercut-ai/supercut-ai-post-v1-imports-response/)
+- [PostV1StacksResponse](https://apis.io/schemas/supercut-ai/supercut-ai-post-v1-stacks-response/)
+- [PostV1UploadsResponse](https://apis.io/schemas/supercut-ai/supercut-ai-post-v1-uploads-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Supercut Ai Context](https://apis.io/jsonld/supercut-ai/supercut-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Supercut API Rules](https://apis.io/rules/supercut-ai/supercut-ai-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Supercut Domain Security](https://apis.io/security/supercut-ai/supercut-ai-domain-security/)
+- [Supercut Trust Center](https://apis.io/security/supercut-ai/supercut-ai-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Supercut Plans Pricing](https://apis.io/plans/supercut-ai/supercut-ai-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://supercut.ai/)
+- [Documentation](https://help.supercut.ai/)
+- [API reference](https://api.supercut.ai/api/platform/v1/docs/)
+- [Pricing](https://supercut.ai/pricing)
+- [Support](https://help.supercut.ai)
+- [Changelog](https://supercut.ai/changelog)
+- [Blog](https://supercut.ai/blog)
+- [Security](https://supercut.ai/security)
+- [Compliance](https://supercut.ai/security)
+- [Terms of service](https://supercut.ai/legal/terms)
+- [Privacy policy](https://supercut.ai/legal/privacy)
+
+## API Evangelist rating
+
+**Kin Score 53.0** — developing · rubric 0.27.0 · scored 2026-11-26
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 79.5 |
+
+**Agent readiness 31.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/supercut-ai/](https://apis.io/providers/supercut-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Supercut: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/supercut-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
